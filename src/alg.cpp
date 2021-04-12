@@ -51,7 +51,7 @@ int countPairs3(int *arr, int len, int value) {
                 right = mid;
         }
     }
-    if (count > 0)
+    if (count != 0)
         return count;
     else
         return 0;
